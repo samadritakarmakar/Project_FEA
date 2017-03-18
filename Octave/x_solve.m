@@ -3,7 +3,7 @@
 #global stiffness matrix 'K' and Force matrix [F] as arguments
 function x=x_solve(x,F_locatn,K,F)
  #finds the total number of elements in F_locatn
- l=numel(F_locatn)
+ l=numel(F_locatn);
  #[F]=[F]-[K]*[x]. Equivalent to substitution of known x values and
  #subtraction from Range.
  F=F-K*x;

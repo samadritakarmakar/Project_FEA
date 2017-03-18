@@ -1,3 +1,8 @@
 matlab2cpp
 .directory
-X_solve
+F
+F_locatn
+F_solved
+K
+x
+x_solved
