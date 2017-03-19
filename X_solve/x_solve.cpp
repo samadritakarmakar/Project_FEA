@@ -5,13 +5,13 @@ using namespace arma ;
 int main()
 {
     mat x, F_locatn, K, F;
-    x.load("x");
+    x.load("boundary/x");
     //cout<<"x\n"<<x;
-    F_locatn.load("F_locatn");
+    F_locatn.load("boundary/F_locatn");
     //cout<<"F_locatn'n"<<F_locatn;
-    K.load("K");
+    K.load("boundary/K");
     //cout<<"K\n"<<K;
-    F.load("F");
+    F.load("boundary/F");
     //cout<<"F\n"<<F;
     mat F_stub, K_stub, x_stub ;
     int i, j, l;
@@ -36,7 +36,7 @@ int main()
         x(F_locatn(i)-1) = x_stub(i) ;
     }
     F=K*x;
-    F.save("F_solved", raw_ascii);
-    x.save("x_solved", raw_ascii);
+    F.save("output/F_solved", raw_ascii);
+    x.save("output/x_solved", raw_ascii);
   return 0 ;
 }
