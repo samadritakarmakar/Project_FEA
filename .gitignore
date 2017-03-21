@@ -6,4 +6,7 @@ F_solved
 K
 x
 x_solved
-build
+build/bndry_mngr.m
+build/input_mngr.m
+build/K_assmbly
+build/x_solve
