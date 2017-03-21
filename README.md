@@ -13,9 +13,8 @@ What are the libraries planned to be used.
  3. Armadillo for matrix operations.
  
 What shall be the license of the Project?
- There shall be no fixed license for the whole project. Each program may have its own preferred license. Although contributions should be only in an Open Source License (OSI approved ONLY, see https://opensource.org/licenses ). The recommended license is GPL v3 (General Public License) but its in no way Compulsory.
+ There shall be no fixed license for the whole project. Each program may have its own preferred license. Although contributions should be only in an Open Source License (OSI approved ONLY, see https://opensource.org/licenses ). The recommended license is GPL v3 (General Public License) but its in no way Compulsory. You may add a license of your choice to your independent program.
  
-Which 
 What is the current status of the Project?
  See STATUS.md to know.
  
